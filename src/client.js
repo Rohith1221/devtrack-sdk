@@ -4,9 +4,7 @@ class DevTrackClient {
   constructor(apiKey, service) {
     this.apiKey = apiKey;
     this.service = service;
-    this.endpoint = "http://localhost:3000/v1/logs/"; // your backend endpoint
-
-    // this.endpoint = "https://api.devtrack.cloud/v1/logs"; // your backend endpoint
+    this.endpoint = "http://69.62.85.73:3000/v1/logs/"; // your backend endpoint
   }
 
   async sendLog(level, message, metadata = {}) {
